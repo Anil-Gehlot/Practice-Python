@@ -100,3 +100,9 @@ pop():
 2) It returned removed element.
 3) If List is empty then we get error.
 """
+
+# 6. clear() function: We can use clear() function to remove all elements of List.
+n=[10,20,30,40]
+print(n)        # [10, 20, 30, 40]
+n.clear()
+print(n)        # []
