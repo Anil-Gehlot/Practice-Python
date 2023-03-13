@@ -15,6 +15,14 @@ sequence can be list or tuple or string.
             
             
             '''
+
+# filter function can only take atmost 2 arguments , nothing much nothing more.
+
+l1=[1,2,3,4]
+l2=[2,3,4,5]
+l3=list(filter(lambda x,y:x*y,l1,l2))                   # TypeError: filter expected 2 arguments, got 3
+print(l3) 
+#-------------------------------------------------------------------------------------------------------------------------------------------------------
 # Q 1. Without lambda function.
 ages = [34,6,78,5,2,2,3,4,36,2,3,22]
 
