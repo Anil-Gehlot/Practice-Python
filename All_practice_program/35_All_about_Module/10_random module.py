@@ -121,3 +121,38 @@ for i in range(5):
 9
 '''
 #----------------------------------------------------------------------------------------------
+
+# 5) choice() function.
+'''
+The choice() method returns a randomly selected element from the specified sequence.
+
+The sequence can be a string, a range, a list, a tuple or any other kind of sequence.
+'''
+import random
+
+x = "WELCOME"
+
+print(random.choice(x))         # L
+print(random.choice(x))         # O
+print(random.choice(x))         # M
+
+list1 = [1,2,3,"anil","manish"]
+print(random.choice(list1))         # anil
+print(random.choice(list1))         # 2
+print(random.choice(list1))         # manish
+#----------------------------------------------------------------------------------------------
+
+# 6) sample() function. 
+"""
+The sample() method returns a list with a randomly selection of a specified number of items from a sequnce.
+"""
+
+import random 
+
+list1 = [1,2,3,"anil","manish"]
+
+print(random.sample(list1,k=2))         # [3, 'manish']
+print(random.sample(list1,k=3))         # ['manish', 2, 1]
+print(random.sample(list1,k=4))         # [2, 1, 'manish', 'anil']
+
+#----------------------------------------------------------------------------------------------
