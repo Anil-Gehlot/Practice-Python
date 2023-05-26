@@ -8,12 +8,11 @@ except block identified.
 '''
 
 
-
 try:
-    x=int(input("Enter First Number: ")) 
-    y=int(input("Enter Second Number: "))
-    print(x/y) 
-except ZeroDivisionError :
+    x = int(input("Enter First Number: "))
+    y = int(input("Enter Second Number: "))
+    print(x/y)
+except ZeroDivisionError:
     print("Can't Divide with Zero")
-except ValueError: 
-    print("please provide int value only") 
+except ValueError:
+    print("please provide int value only")
