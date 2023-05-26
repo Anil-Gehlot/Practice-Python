@@ -27,3 +27,5 @@ except:
     print('default Exeption')
 except ZeroDivisionError:
     print('Zero Division Error')
+
+# Output : SyntaxError: default 'except:' must be last.
