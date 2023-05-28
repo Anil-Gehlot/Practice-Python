@@ -1,0 +1,13 @@
+INFO:root:Execution completed
+ERROR:root:division by zero
+Traceback (most recent call last):
+  File "c:\Users\anilg\OneDrive\Desktop\practice-python\All_practice_program\38_logging and Debugging\04_writing_Python_program_exceptions_to_the_log_file.py", line 15, in <module>
+    print(a/b)
+ZeroDivisionError: division by zero
+INFO:root:Execution completed
+ERROR:root:invalid literal for int() with base 10: 'ten'
+Traceback (most recent call last):
+  File "c:\Users\anilg\OneDrive\Desktop\practice-python\All_practice_program\38_logging and Debugging\04_writing_Python_program_exceptions_to_the_log_file.py", line 13, in <module>
+    a = int(input('Enter first num: '))
+ValueError: invalid literal for int() with base 10: 'ten'
+INFO:root:Execution completed
