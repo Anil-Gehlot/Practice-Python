@@ -9,6 +9,7 @@ Python contains the following methods to check type of characters present in a s
 6) istitle(): Returns True if string is in title case
 7) isspace(): Returns True if string contains only spaces
 
+8) iscapitalize : iscapitalize doesn't exist.****
 '''
 
 a = 'Anil2303'
