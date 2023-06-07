@@ -1,6 +1,5 @@
 
 '''
-
 Hybrid Inheritance:
 
 Combination of Single, Multi level, multiple and Hierarchical inheritance is known as Hybrid
