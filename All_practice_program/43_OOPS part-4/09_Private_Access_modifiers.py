@@ -64,6 +64,7 @@ class School(Student):
         super().__init__(name, roll, branch)
 
 s = School("anil", 11, "MCA")
-s.__display()
+
+s.__display()               # AttributeError: 'School' object has no attribute '__display' 
 
 # Private members are not available for derived class also.
