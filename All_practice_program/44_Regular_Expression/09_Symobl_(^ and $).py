@@ -33,7 +33,6 @@ Target String not starts with earn
 
 
 '''
-
 $ symbol:
 We can use $ symbol to check whether the given target string ends with our provided pattern or not
 
