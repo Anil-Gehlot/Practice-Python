@@ -38,8 +38,6 @@ We can use $ symbol to check whether the given target string ends with our provi
 
 If the target string ends with given string then it will return Match object,otherwise returns None.
 '''
-
-
 import re
 s="Learning Python is Very Easy"
 res=re.search("Easy$",s)
