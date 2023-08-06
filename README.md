@@ -35,12 +35,12 @@ To get started with the practice content in this repository, follow these steps:
 This repository covers a wide range of practice areas to enhance my Python programming skills. Here's an overview of some practice topics:
 
 - `basics`: Fundamental Python concepts and syntax.
-- data-structures: Implementation of data structures like lists, dictionaries, sets, and more.
-- algorithms: Coding challenges focused on algorithms and problem-solving.
-- object-oriented: Exploring object-oriented programming principles in Python.
-- file-io: Working with files, reading and writing data.
-- modules-libraries: Practice with popular Python modules and libraries.
-- projects: Small projects to apply the concepts learned.
+- `data-structures`: Implementation of data structures like lists, dictionaries, sets, and more.
+- `algorithms`: Coding challenges focused on algorithms and problem-solving.
+- `object-oriented`: Exploring object-oriented programming principles in Python.
+- `file-io`: Working with files, reading and writing data.
+- `modules-libraries`: Practice with popular Python modules and libraries.
+- `projects`: Small projects to apply the concepts learned.
 
 Feel free to explore these practice areas and delve into the code to strengthen your Python skills.
 
