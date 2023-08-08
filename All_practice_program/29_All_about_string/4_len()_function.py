@@ -12,6 +12,7 @@ print()
 Q. Write a program to access each character of string in forward and backward direction
 by using while loop?
 '''
+
 b = 'Hello, I am ANIL !!!'
 i = 0
 l = len(b)
