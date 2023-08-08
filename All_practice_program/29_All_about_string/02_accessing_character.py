@@ -1,36 +1,38 @@
-# '''
-# How to access characters of a String: We can access characters of a string by using the following ways.
+'''
+How to access characters of a String: We can access characters of a string by using the following ways.
 
-# 1. By using index
-# 2. By using slice operator
+1. By using index
+2. By using slice operator
 
-# 1. By using index :
+1. By using index :
 
-# Python supports both +ve and -ve index.
-# +ve index means left to right(Forward direction)
-# -ve index means right to left(Backward direction)
+Python supports both +ve and -ve index.
++ve index means left to right(Forward direction)
+-ve index means right to left(Backward direction)
+'''
 
-# '''
-# a = 'anil prabhas'
-# print(a[0])         # a         
-# print(a[5])         # p
-# print(a[-1])        # s
-# # print(a[91])        # IndexError: string index out of range.
-# # print(a[-23])       # IndexError: string index out of range
-# '''Note: If we are trying to access characters of a string with out of range index then we will get
-# error saying : IndexError'''
+a = 'anil prabhas'
+print(a[0])         # a         
+print(a[5])         # p
+print(a[-1])        # s
+# print(a[91])        # IndexError: string index out of range.
+# print(a[-23])       # IndexError: string index out of range
+'''Note: If we are trying to access characters of a string with out of range index then we will get
+error saying : IndexError'''
 
-# '''
-# Q. Write a program to accept some string from the keyboard and display its characters by
-# index wise(both positive and nEgative index)
-# '''
-# str = input("Enter string : ")
-# a = 0
-# l = len(str)
-# for i in str:
-#     print(f'The character present at positive index {a} and at negative index {-l} is : {i}')
-#     a = a + 1
-#     l = l - 1
+'''
+Q. Write a program to accept some string from the keyboard and display its characters by
+index wise(both positive and nEgative index)
+'''
+
+str = input("Enter string : ")
+a = 0
+l = len(str)
+for i in str:
+    print(f'The character present at positive index {a} and at negative index {-l} is : {i}')
+    a = a + 1
+    l = l - 1
+
 
 """
 2. Accessing characters by using slice operator:
