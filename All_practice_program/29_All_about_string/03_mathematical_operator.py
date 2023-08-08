@@ -9,7 +9,6 @@ We can apply the following mathematical operators for Strings.
 
 '''
 
-
 a = 'anil'
 b = 'gehlot'
 c = 2
