@@ -2,7 +2,7 @@
 We can create 'List' using Square brackets[].
 
 Lists are :- 
-			1. ordered.
+		    1. ordered.
 		    2. indexed.
 		    3. heterogeneous.
 		    4. allows duplicate values.
