@@ -2,7 +2,6 @@
 There are two boolean data type
     1. True  ("T" must be capital.)
     2. False ("F" must be capital.)
-    
 """
 
 a = True
